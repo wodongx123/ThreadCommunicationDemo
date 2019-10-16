@@ -1,0 +1,10 @@
+# ThreadCommunicationDemo
+ThreadCommunicationDemo
+
+1. WaitNotify下有关于Wait/Notify的demo（交替从0数到100）。
+2. Condition下ConditionDemo1是有关Condition的Demo（交替从0数到100），ConditionDemo2是两个线程各自数100，线程A数到半途让线程B先数。
+3. volatileDemo下VolatileDemo是有关Volatile关键字的Demo（交替数到1000）；NoAutoMaticDemo测试了Volatile的变量操作不保证原子性。
+4. BlockingQueue下有关BlockingQueue的Demo，Put和Take测试了插入和取出元素时的堵塞情况，BlockingQueueTest用了生产者消费者模型举了BlockingQueue的例子。
+
+
+CSDN:https://blog.csdn.net/qq_41872247/article/details/102508853
